@@ -29,7 +29,7 @@ confirmCancelledText = WebUI.getText(findTestObject('nagrany_obiekty/Page_Tryit 
 
 WebUI.verifyMatch(confirmCancelledText, 'User cancelled the prompt.', false)
 
-WebUI.click(findTestObject('nagrany_obiekty/Page_Tryit Editor v36/button_Try it'))
+WebUI.click(findTestObject('nagrany_obiekty/Page_Tryit Editor v36/button_Try it_AGAIN'))
 
 alertText = WebUI.getAlertText()
 
